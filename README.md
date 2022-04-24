@@ -3,4 +3,4 @@ This program uses a large dataset of news articles with Fake and Real designatio
 
 ## How to run:
 1. Install the required packages: pandas, sklearn using pip:
-$ 
+$ dsfvadfv$
