@@ -4,24 +4,24 @@
 ## How to run:
 1. Install the required packages: pandas, sklearn using pip:
 ```
-$ pip install pandas, sklearn
+pip install pandas, sklearn
 ```
 2. Open the command prompt and move to the working directory:
 ```
-$ cd /path/to/directory/
+cd /path/to/directory/
 ```
 4.  Run the program and simulation:
 ```
-$ python detector.py
+python detector.py
 ```
 5. Create detector object with the news data file:
 ```
-python >>> myDetector = NewsClassifier('news.csv')
+myDetector = NewsClassifier('news.csv')
 ```
 6. Train the model and test its predictions accuracy:
 ```
-python >>> myDetector.train()
-python >>> myDetector.predict()
+myDetector.train()
+myDetector.predict()
 ```
 
 ## Data format:
