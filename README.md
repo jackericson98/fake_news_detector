@@ -1,5 +1,5 @@
 # Fake News Detector
-This program uses a large dataset of news articles with Fake and Real designations to train a model to be able to predict the validity of other news articles. The detector trains on the majority of the data (train_size) and tests itself on the remaining articles. 
+
 
 ## How to run:
 1. Install the required packages: pandas, sklearn using pip:
@@ -23,3 +23,12 @@ $ python detector.py
 >>> myDetector.train()
 >>> myDetector.predict()
 ```
+
+## Data format:
+The data needs to be in a comma seperated file (.csv) file format, in the following order:\
+number, title, text, label
+
+## Methods
+This program uses a large dataset of news articles with Fake and Real designations to train a model to be able to predict the validity of other news articles. The detector relies on a passive aggressive classifier algorithm that does not react when the classification is correct, but adjusts heavily if the classification is wrong. This allows the detector to be really good at making sure no fake news is classified as real, but has the trade off of occasionally classifying some real news articles as fake.
+
+
