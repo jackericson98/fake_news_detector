@@ -16,12 +16,12 @@ $ python detector.py
 ```
 5. Create detector object with the news data file:
 ```
->>> myDetector = NewsClassifier('news.csv')
+python >>> myDetector = NewsClassifier('news.csv')
 ```
 6. Train the model and test its predictions accuracy:
 ```
->>> myDetector.train()
->>> myDetector.predict()
+python >>> myDetector.train()
+python >>> myDetector.predict()
 ```
 
 ## Data format:
