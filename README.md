@@ -33,4 +33,6 @@ This program uses a large dataset of news articles with Fake and Real designatio
 
 The detector also relies on a passive aggressive classifier algorithm, as the driver for its training. This type of algorithm does not react when the classification is correct, but reacts heavily if the classification is wrong. This trains the model to be really good at making sure no fake news is classified as real, but has the trade off of occasionally classifying some real news articles as fake.
 
+## Citations
+“Detecting Fake News with Python and Machine Learning.” DataFlair, 31 Mar. 2021, https://data-flair.training/blogs/advanced-python-project-detecting-fake-news/. 
 
